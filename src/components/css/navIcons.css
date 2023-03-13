@@ -1,0 +1,14 @@
+svg{
+    height: 2vw;
+    width:  2vw;
+    fill: #b2adad;
+}
+
+
+@media screen and (max-width:800px) {
+    svg{
+        width:  5vw;
+        height: 5vw;
+        fill: #b2adad;
+    }
+}

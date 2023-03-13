@@ -1,0 +1,10 @@
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the text element to the height of the viewport */
+    font-size: 12px; /* Example font size */
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+  }

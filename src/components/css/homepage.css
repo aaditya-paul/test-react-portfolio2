@@ -1,0 +1,14 @@
+.main {
+    margin: 0;
+}
+
+h1{
+    color: aliceblue;
+}
+
+.getStarted{
+    height: 100vh;
+    width: 100vw;
+    background: #0B0B0B;
+
+}

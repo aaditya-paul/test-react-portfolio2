@@ -1,0 +1,29 @@
+.trailer{
+    padding: 0.5vw;
+    margin: 0px 0 0 0;
+    background: rgb(189, 226, 141);
+    border-radius: 50%;
+    position: absolute;
+    pointer-events:none;
+    transition: all 0.2s;
+    
+}
+
+.trailerHover{
+    padding: 2vw 3vw;
+    margin: 0px 0 0 0;
+    background: rgb(105, 151, 204);
+    border-radius: 0.2vw;
+    position: absolute;
+    pointer-events:none;
+    transition: all 0.2s;
+    max-width: 20%;
+}
+
+@media screen and (max-width:800px) {
+    .trailer{
+        display: none   ;
+        left: -100px;
+
+    }
+}
