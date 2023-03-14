@@ -11,8 +11,6 @@ body{
 .main{
     height: 100vh;
     width: 100vw;
-    padding-top: 5vw ;
-    scroll-snap-type: x mandatory ;
 }
 
 
@@ -25,8 +23,10 @@ body{
 }
 
 .vector{
-  height: 35vw;
-  width: 35vw;
+  height: 40vw;
+  width: 40vw;
+fill: #2C2A2A;
+
 }
 
 .signature {
@@ -34,13 +34,13 @@ body{
     justify-content: center;
     align-items: center;
     animation: draw 2s linear ;
-    height: 25vw;
-    width: 25vw;
+    height: 20vw;
+    width: 20vw;
     stroke-width:0.2vw;
-    fill:#2C2A2A;
+    fill:#ffffff;
     /* stroke: black; */
     background: transparent;
-    animation: draw 1.5s linear;
+    animation: draw 1.5s ;
 }
 
 /* .gradient{
@@ -94,42 +94,7 @@ border-radius: 15px;
         stroke-dasharray: 311 0;
         stroke-dashoffset: 311 0;
       }
-      /* 20% {
-        stroke-dasharray: 0 311;
-        stroke-dashoffset: 0 311;
-      }
-      30% {
-        stroke-dasharray: 311 0;
-        stroke-dashoffset: 311 0;
-      }
-      40% {
-        stroke-dasharray: 0 311;
-        stroke-dashoffset: 0 311;
-      }
-      50% {
-        stroke-dasharray: 311 0;
-        stroke-dashoffset: 311 0;
-      }
-      60% {
-        stroke-dasharray: 0 311;
-        stroke-dashoffset: 0 311;
-      }
-      70% {
-        stroke-dasharray: 311 0;
-        stroke-dashoffset: 311 0;
-      }
-      80% {
-        stroke-dasharray: 0 311;
-        stroke-dashoffset: 0 311;
-      }
-      90% {
-        stroke-dasharray: 311 0;
-        stroke-dashoffset: 311 0;
-      }
-      100% {
-        stroke-dasharray: 0 311;
-        stroke-dashoffset: 0 311;
-      } */
+      
   }
 
 .mango-vector{
@@ -224,7 +189,7 @@ flex-direction: column;
   height: 50vw;
   width: 50vw;
   stroke-width:0.5vw;
-  fill:#2C2A2A;
+  fill:#ffffff;
   /* stroke: black; */
   background: transparent;
   animation: draw 1.5s linear;
@@ -259,7 +224,7 @@ flex-direction: column;
   font-family: 'Poppins', sans-serif;
   font-size: 3vw;
   text-align: center;
-  animation: up-down 1s ;
+  animation: up-down 1s ; 
   animation-iteration-count: infinite;
   text-shadow: #242323 0.1vw 0.1vw;
   margin-top: 2vw;

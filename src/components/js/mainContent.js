@@ -1,13 +1,7 @@
 import React from "react";
 import "../css/mainContent.css";
 
-import {EnevenVector, Ap} from "../../assetComponent";
-
-const vector_height = "35vw";
-const vector_width = "35vw";
-
-const Apnature_height = "25vw";
-const Apnature_width = "25vw";
+import {Ap, Vec} from "../../assetComponent";
 
 const info = `I'm Aaditya Paul,
 a Full-Stack Developer,
@@ -21,7 +15,7 @@ const MainContent = () => {
         {/*  */}
         <div className="info-wrapper">
           <div className="mango-vector">
-            <EnevenVector className="vector" />
+            <Vec className="vector" />
             {/* <div className="gradient"></div> */}
             <Ap className="signature" />
           </div>
